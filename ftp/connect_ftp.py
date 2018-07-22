@@ -14,4 +14,5 @@ def connect():
   return paramiko.SFTPClient.from_transport(transport)
   
  if __name__ == "main":
+    connect()
   
